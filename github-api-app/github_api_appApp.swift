@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct test_appApp: App {
+struct github_api_appApp: App {
    var body: some Scene {
       WindowGroup {
          UserView()
