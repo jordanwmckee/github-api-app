@@ -1,10 +1,3 @@
-//
-//  GithubUser.swift
-//  test app
-//
-//  Created by Jordan McKee on 8/16/23.
-//
-
 import Foundation
 
 struct User: Codable {
@@ -41,3 +34,4 @@ struct User: Codable {
    let created_at: String
    let updated_at: String
 }
+

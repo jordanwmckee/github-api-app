@@ -1,6 +1,6 @@
 //
-//  GithubUserView.swift
-//  test app
+//  UserView.swift
+//  github-api-app
 //
 //  Created by Jordan McKee on 8/16/23.
 //
@@ -57,9 +57,9 @@ struct UserView: View {
          .padding()
          .navigationBarTitle("User Search", displayMode: .inline) // Set the title
          .navigationBarItems(leading:
-            NavigationLink(destination: ProfileView()) {
-               Text("Profile")
-            }
+                              NavigationLink(destination: ProfileView()) {
+            Text("Profile")
+         }
          )
       }
    }
@@ -70,3 +70,4 @@ struct GithubUserView_Previews: PreviewProvider {
       UserView()
    }
 }
+

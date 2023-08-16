@@ -1,10 +1,3 @@
-//
-//  APIRequest.swift
-//  test app
-//
-//  Created by Jordan McKee on 8/16/23.
-//
-
 import Foundation
 
 func sendGetRequest<T: Decodable>(for: T.Type, from endpoint: String) async throws -> T {

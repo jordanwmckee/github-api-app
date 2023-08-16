@@ -1,6 +1,6 @@
 //
 //  ProfileView.swift
-//  test app
+//  github-api-app
 //
 //  Created by Jordan McKee on 8/16/23.
 //

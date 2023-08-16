@@ -1,10 +1,3 @@
-//
-//  GithubUserViewModel.swift
-//  test app
-//
-//  Created by Jordan McKee on 8/16/23.
-//
-
 import Foundation
 
 final class UserViewModel: ObservableObject {
@@ -18,5 +11,3 @@ final class UserViewModel: ObservableObject {
       }
    }
 }
-
-
